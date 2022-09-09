@@ -9,9 +9,9 @@ namespace dotnetCore_LineBot.Controllers
     public class MessageController
     {
         public string channelToken{get; private set;}
-            =@"/MuwA0g7s5mT9vBzzihsVH0JigeA2dQSO1ETashy34az/yc8j1BGS5/CSzPQionIXwfliqhEVcFCctom2S50La+uPAvK85miNgx8ZaYJdmhkeFDfSvlQ0+A9r9gp3fnAXAbYWKTgxuWMqFpXevvFmQdB04t89/1O/w1cDnyilFU=";
+            =@"your channel Token";
         public string adminUserID{get; private set;}
-            ="Uf4a2b3a58cb64f1c8987aff14e0e54c4";
+            ="your admin User ID";
 
         [HttpPost]
         public string Post(){
